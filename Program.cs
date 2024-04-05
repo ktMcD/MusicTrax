@@ -124,7 +124,8 @@ namespace MusicTrax
                                  line.Contains("JN14") ||
                                  line.Contains("JN15") ||
                                  line.Contains("JN16") ||
-                                 line.Contains("JN17"))
+                                 line.Contains("JN17") ||
+                                 line.Contains("JNTIME"))
                         {
                             trackWriter.WriteLine($"");
                             trackWriter.WriteLine($"{fields[3]}");
